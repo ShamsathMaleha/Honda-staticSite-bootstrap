@@ -1,0 +1,120 @@
+header{
+    color: white;
+}
+a .menu-color{
+    color: white;
+}
+.header-colour{
+    background-color: rgb(38, 70, 83);
+}
+.text-color{
+    color: #E0E0E0;
+}
+
+.honda-title{
+    font-size: 48px;
+    font-weight: 600;
+}
+.modal-btn-color{
+    background-color: tomato;
+}
+
+/* /* features collection   */
+
+.features{
+    font-size: 48px;
+    font-weight: 700;
+}
+.collection{
+    font-size: 16px;
+    color: tomato;
+}
+
+.feature-bike img{
+    width: 270px;
+    height: 230px;
+
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+
+/* / happy clients / */
+.clients-title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.clients-image{
+    width: 150px;
+    height: 150px;
+}
+.card-text{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fas{
+    padding: 0 3px;
+    color: rgb(231, 124, 64);
+}
+.far{
+    padding: 0 3px;
+    color: rgb(231, 124, 64);
+}
+
+ frequently asked question
+.frequently-title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.bg-color{
+    background-color: #264653;
+}
+.bg-caption{
+    background-color:rgba(192, 172, 172, 0.356) ;
+}
+
+/* carousel */
+
+.carousel-design{
+
+    padding: 50px;
+}
+.carousel-title{
+    font-size: 48px;
+}
+
+.progress-title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.progress-details{
+    text-align: center;
+    font-weight: 600;
+
+}
+.table-color{
+    background-color: #ced6da;
+
+}
+.footer-color{
+    background-color: #264653;
+}
+
+@media only screen and (max-width:688px){
+    .carousel-design{
+        padding: 20px;
+    }
+    .features{
+        text-align: center;
+        font-size: 35px;
+    }
+    .collection{
+        font-size: 18px;
+    }
+}
